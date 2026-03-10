@@ -14,4 +14,15 @@ static double CalculateAverage(int[] values)
     return sum / values.Length;
 }
 
+static int CalculateMax(int[] values)
+{
+    int max = values[0];
+    foreach (int value in values)
+    {
+        if (value > max)
+            max = value;
+    }
+    return max;
+}
+
 Console.WriteLine("World, Hello!");
