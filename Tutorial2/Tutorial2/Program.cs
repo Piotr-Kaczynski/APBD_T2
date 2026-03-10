@@ -18,12 +18,12 @@ static int CalculateMax(int[] values)
 
 static double CalculateAverage(int[] values)
 {
-    int sum = 0;
+    int summm = 0;
     foreach (int value in values)
     {
-        sum += value;
+        summm += value;
     }
-    return sum / values.Length;
+    return summm / values.Length;
 }
 
 
