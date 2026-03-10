@@ -6,7 +6,12 @@ Console.WriteLine("Hello, World!");
 
 static double CalculateAverage(int[] values)
 {
-    return 0.0;
+    int sum = 0;
+    foreach (int value in values)
+        {
+        sum += value;
+        }
+    return sum / values.Length;
 }
 
 Console.WriteLine("World, Hello!");
