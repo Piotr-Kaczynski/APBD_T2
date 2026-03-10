@@ -25,5 +25,7 @@ static int CalculateMax(int[] values)
     return max;
 }
 
+static int CalculateMin(int[] values){}
+
 Console.WriteLine("World, Hello!");
 Console.WriteLine("Adding max function");
