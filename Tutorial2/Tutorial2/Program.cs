@@ -4,16 +4,6 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("World, Hello!");
 Console.WriteLine("Hello, World!");
 
-static double CalculateAverage(int[] values)
-{
-    int sum = 0;
-    foreach (int value in values)
-    {
-        sum += value;
-    }
-    return sum / values.Length;
-}
-
 static int CalculateMax(int[] values)
 {
     int max = values[0];
@@ -24,6 +14,21 @@ static int CalculateMax(int[] values)
     }
     return max;
 }
+
+
+
+
+static double CalculateAverage(int[] values)
+{
+    int sum = 0;
+    foreach (int value in values)
+    {
+        sum += value;
+    }
+    return sum / values.Length;
+}
+
+
 
 Console.WriteLine("World, Hello!");
 Console.WriteLine("Adding max function");
