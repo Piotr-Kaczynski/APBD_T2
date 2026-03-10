@@ -33,7 +33,7 @@ static int CalculateMin(int[] values)
         if (value < min)
             min = value;
         }
-    return 0;
+    return min;
 }
 
 Console.WriteLine("World, Hello!");
