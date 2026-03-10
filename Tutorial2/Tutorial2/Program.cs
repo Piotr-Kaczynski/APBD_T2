@@ -15,3 +15,4 @@ static double CalculateAverage(int[] values)
 }
 
 Console.WriteLine("World, Hello!");
+Console.WriteLine("Adding max function");
