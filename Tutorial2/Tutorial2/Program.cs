@@ -16,8 +16,6 @@ static int CalculateMax(int[] values)
 }
 
 
-
-
 static double CalculateAverage(int[] values)
 {
     int sum = 0;
